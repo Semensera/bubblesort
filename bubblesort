@@ -1,0 +1,29 @@
+function bubbleSort(arr) {
+    let n = arr.length;
+    
+    for (let i = 0; i < n - 1; i++) {
+        
+        // let swapped = false;
+        
+        for (let j = i + 1; j < n ; j++) {
+            if (arr[j] > arr[i]) {
+            
+                let temp = arr[j];
+                // arr[j] = arr[j + 1];
+                // arr[j + 1] = temp;
+                // swapped = true;
+                arr[j] = arr[i];
+                arr[i] = temp;
+            }
+        }
+        
+        
+        // if (!swapped) {
+        //     break;
+        // }
+    }
+    
+    return arr;
+}
+let array = [4, 3, 6, 8, 11, 1, 9, 10, 11];
+console.log(bubbleSort(array));
