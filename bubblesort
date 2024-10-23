@@ -1,4 +1,4 @@
-
+let arr = [64, 34, 25, 12, 22, 11, 90];
 function bubbleSort(arr) {
     let n = arr.length;
     let swapped;
@@ -18,14 +18,5 @@ function bubbleSort(arr) {
     } while (swapped);
 }
 
-
-let arr = [64, 34, 25, 12, 22, 11, 90];
-
-
 console.log("Початковий масив: " + arr);
-
-
-bubbleSort(arr);
-
-
 console.log("Відсортований масив: " + arr);
