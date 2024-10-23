@@ -17,6 +17,6 @@ function bubbleSort(arr) {
         n--;
     } while (swapped);
 }
-
+bubbleSort(arr);
 console.log("Початковий масив: " + arr);
 console.log("Відсортований масив: " + arr);
